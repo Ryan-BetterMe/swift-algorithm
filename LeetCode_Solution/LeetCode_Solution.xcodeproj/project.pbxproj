@@ -21,6 +21,8 @@
 		946C117426A7C1B40054FF4B /* 13_ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C117326A7C1B40054FF4B /* 13_ValidSudoku.swift */; };
 		949A83B726A278EA00D8B35B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A83B626A278EA00D8B35B /* main.swift */; };
 		949A83BE26A2791000D8B35B /* 2_MedianOfSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A83BD26A2791000D8B35B /* 2_MedianOfSortedArray.swift */; };
+		94ACC16526AE503000E34E6B /* 1_LongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ACC16426AE503000E34E6B /* 1_LongestSubstring.swift */; };
+		94CF795526B7A698005AB768 /* 2_LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF795426B7A698005AB768 /* 2_LongestPalindrome.swift */; };
 		94E9C46426A90E5E004F9148 /* 14_SudokuSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9C46326A90E5E004F9148 /* 14_SudokuSolver.swift */; };
 		94E9C46626AA603D004F9148 /* 15_CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9C46526AA603D004F9148 /* 15_CombinationSum.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,8 @@
 		949A83B326A278EA00D8B35B /* LeetCode_Solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode_Solution; sourceTree = BUILT_PRODUCTS_DIR; };
 		949A83B626A278EA00D8B35B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		949A83BD26A2791000D8B35B /* 2_MedianOfSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_MedianOfSortedArray.swift; sourceTree = "<group>"; };
+		94ACC16426AE503000E34E6B /* 1_LongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_LongestSubstring.swift; sourceTree = "<group>"; };
+		94CF795426B7A698005AB768 /* 2_LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_LongestPalindrome.swift; sourceTree = "<group>"; };
 		94E9C46326A90E5E004F9148 /* 14_SudokuSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_SudokuSolver.swift; sourceTree = "<group>"; };
 		94E9C46526AA603D004F9148 /* 15_CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_CombinationSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				949A83B626A278EA00D8B35B /* main.swift */,
+				94ACC16326AE500E00E34E6B /* 2.String */,
 				949A83BF26A2791500D8B35B /* 1.Array */,
 			);
 			path = LeetCode_Solution;
@@ -113,6 +118,15 @@
 				94E9C46526AA603D004F9148 /* 15_CombinationSum.swift */,
 			);
 			path = 1.Array;
+			sourceTree = "<group>";
+		};
+		94ACC16326AE500E00E34E6B /* 2.String */ = {
+			isa = PBXGroup;
+			children = (
+				94ACC16426AE503000E34E6B /* 1_LongestSubstring.swift */,
+				94CF795426B7A698005AB768 /* 2_LongestPalindrome.swift */,
+			);
+			path = 2.String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,7 @@
 				946C117426A7C1B40054FF4B /* 13_ValidSudoku.swift in Sources */,
 				946C116C26A669F40054FF4B /* 9_NextPermutation.swift in Sources */,
 				946C116426A5664F0054FF4B /* 5_3SumClosest.swift in Sources */,
+				94ACC16526AE503000E34E6B /* 1_LongestSubstring.swift in Sources */,
 				946C116626A574B00054FF4B /* 6_4Sum.swift in Sources */,
 				94E9C46426A90E5E004F9148 /* 14_SudokuSolver.swift in Sources */,
 				946C116E26A6B44A0054FF4B /* 10_SearchInRotatedSortedArray.swift in Sources */,
@@ -185,6 +200,7 @@
 				946C116226A552430054FF4B /* 4_3Sum.swift in Sources */,
 				946C116826A5896D0054FF4B /* 7_RemoveDuplicates.swift in Sources */,
 				949A83BE26A2791000D8B35B /* 2_MedianOfSortedArray.swift in Sources */,
+				94CF795526B7A698005AB768 /* 2_LongestPalindrome.swift in Sources */,
 				949A83B726A278EA00D8B35B /* main.swift in Sources */,
 				946C116A26A5C65F0054FF4B /* 8_RemoveElement.swift in Sources */,
 				94E9C46626AA603D004F9148 /* 15_CombinationSum.swift in Sources */,

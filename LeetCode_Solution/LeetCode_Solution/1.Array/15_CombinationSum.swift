@@ -67,6 +67,8 @@ public func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
             return
         }
         
+    
+        
         for index in start...candidates.count - 1 {
             path.append(candidates[index])
             recursion(path: &path, index, reminder - candidates[index])
@@ -78,6 +80,4 @@ public func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
     
     return result
 }
-
-
 
