@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944749CF26CB636B00A1A42B /* 3_ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */; };
 		946C115E26A517240054FF4B /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C115D26A517240054FF4B /* 1_TwoSum.swift */; };
 		946C116026A51C1A0054FF4B /* 3_ContainerMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C115F26A51C1A0054FF4B /* 3_ContainerMostWater.swift */; };
 		946C116226A552430054FF4B /* 4_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C116126A552430054FF4B /* 4_3Sum.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ZigZagConversion.swift; sourceTree = "<group>"; };
 		946C115D26A517240054FF4B /* 1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum.swift; sourceTree = "<group>"; };
 		946C115F26A51C1A0054FF4B /* 3_ContainerMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ContainerMostWater.swift; sourceTree = "<group>"; };
 		946C116126A552430054FF4B /* 4_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_3Sum.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				94ACC16426AE503000E34E6B /* 1_LongestSubstring.swift */,
 				94CF795426B7A698005AB768 /* 2_LongestPalindrome.swift */,
+				944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */,
 			);
 			path = 2.String;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				94CF795526B7A698005AB768 /* 2_LongestPalindrome.swift in Sources */,
 				949A83B726A278EA00D8B35B /* main.swift in Sources */,
 				946C116A26A5C65F0054FF4B /* 8_RemoveElement.swift in Sources */,
+				944749CF26CB636B00A1A42B /* 3_ZigZagConversion.swift in Sources */,
 				94E9C46626AA603D004F9148 /* 15_CombinationSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
