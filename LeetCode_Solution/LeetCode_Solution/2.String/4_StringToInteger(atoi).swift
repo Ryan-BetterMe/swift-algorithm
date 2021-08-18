@@ -116,3 +116,43 @@ func myAtoi(_ s: String) -> Int {
     
     return result
 }
+
+// 也是使用遍历，不过不是那种粗暴的方法
+// 并不是先得到一个最大数的字符串，而是读取一个数字字符就变换相应的base
+func myAtoi2(_ s: String) -> Int {
+    // 符号
+    var sign = 1
+
+    // 最终的数字结果
+    var base = 0
+    
+    // 初始遍历项
+    var i = 0
+    
+    let paramsArray = Array(s)
+    
+    while i < paramsArray.count && paramsArray[i] == " " { i += 1 }
+    
+    if i < paramsArray.count && (paramsArray[i] == "-" || paramsArray[i] == "+") {
+        sign = paramsArray[i] == "-" ? -1 : 1
+         i += 1
+    }
+    
+    while i < paramsArray.count && paramsArray[i] >= "0" && paramsArray[i] <= "9" {
+        base = 10 * base + Int("\(paramsArray[i])")!
+        
+        i += 1
+        
+        // 注意符号：是从[-(1<<32) - 1, 1<<32]
+        if base > INT32_MAX {
+            if sign == -1 {
+                base = Int(INT32_MAX) + 1
+            } else {
+                base = Int(INT32_MAX)
+            }
+            break
+        }
+    }
+    
+    return base * sign
+}
