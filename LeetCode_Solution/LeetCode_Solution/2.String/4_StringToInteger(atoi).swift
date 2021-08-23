@@ -102,7 +102,6 @@ func myAtoi(_ s: String) -> Int {
         } else {
             result = max - 1
         }
-        
     } else {
         result = Int(resultStr) ?? 0
         

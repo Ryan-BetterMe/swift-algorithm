@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		944749CF26CB636B00A1A42B /* 3_ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */; };
 		944749D126CB967200A1A42B /* 4_StringToInteger(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */; };
+		944749D326CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */; };
 		946C115E26A517240054FF4B /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C115D26A517240054FF4B /* 1_TwoSum.swift */; };
 		946C116026A51C1A0054FF4B /* 3_ContainerMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C115F26A51C1A0054FF4B /* 3_ContainerMostWater.swift */; };
 		946C116226A552430054FF4B /* 4_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C116126A552430054FF4B /* 4_3Sum.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ZigZagConversion.swift; sourceTree = "<group>"; };
 		944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_StringToInteger(atoi).swift"; sourceTree = "<group>"; };
+		944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_RegularExpressionMatching.swift; sourceTree = "<group>"; };
 		946C115D26A517240054FF4B /* 1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum.swift; sourceTree = "<group>"; };
 		946C115F26A51C1A0054FF4B /* 3_ContainerMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ContainerMostWater.swift; sourceTree = "<group>"; };
 		946C116126A552430054FF4B /* 4_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_3Sum.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				94CF795426B7A698005AB768 /* 2_LongestPalindrome.swift */,
 				944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */,
 				944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */,
+				944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */,
 			);
 			path = 2.String;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				946C116026A51C1A0054FF4B /* 3_ContainerMostWater.swift in Sources */,
 				946C117426A7C1B40054FF4B /* 13_ValidSudoku.swift in Sources */,
+				944749D326CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift in Sources */,
 				946C116C26A669F40054FF4B /* 9_NextPermutation.swift in Sources */,
 				946C116426A5664F0054FF4B /* 5_3SumClosest.swift in Sources */,
 				94ACC16526AE503000E34E6B /* 1_LongestSubstring.swift in Sources */,
