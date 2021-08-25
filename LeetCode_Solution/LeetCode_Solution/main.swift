@@ -32,3 +32,9 @@ solveSudoku(&array)
 print(isMatch("aa", "a"))
 
 print(intToRoman(1936))
+
+let str = "1"
+
+print(MemoryLayout.size(ofValue: str))
+
+
