@@ -37,4 +37,8 @@ let str = "1"
 
 print(MemoryLayout.size(ofValue: str))
 
+print(strStr("hello", "ll"))
 
+print(createNextArray2("bababa"))
+
+print(strStr02("aabbcc", "bcc"))

@@ -16,6 +16,7 @@
 		94474A0526D63B1100A1A42B /* 9_letterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94474A0426D63B1100A1A42B /* 9_letterCombinations.swift */; };
 		94474A0726D64D7900A1A42B /* 10_ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94474A0626D64D7900A1A42B /* 10_ValidParentheses.swift */; };
 		94474A0926D6505400A1A42B /* 11_GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94474A0826D6505400A1A42B /* 11_GenerateParentheses.swift */; };
+		94474A0B26DA292300A1A42B /* 12_ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94474A0A26DA292300A1A42B /* 12_ImplementStrStr.swift */; };
 		946C115E26A517240054FF4B /* 1_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C115D26A517240054FF4B /* 1_TwoSum.swift */; };
 		946C116026A51C1A0054FF4B /* 3_ContainerMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C115F26A51C1A0054FF4B /* 3_ContainerMostWater.swift */; };
 		946C116226A552430054FF4B /* 4_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C116126A552430054FF4B /* 4_3Sum.swift */; };
@@ -58,6 +59,7 @@
 		94474A0426D63B1100A1A42B /* 9_letterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_letterCombinations.swift; sourceTree = "<group>"; };
 		94474A0626D64D7900A1A42B /* 10_ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_ValidParentheses.swift; sourceTree = "<group>"; };
 		94474A0826D6505400A1A42B /* 11_GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_GenerateParentheses.swift; sourceTree = "<group>"; };
+		94474A0A26DA292300A1A42B /* 12_ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_ImplementStrStr.swift; sourceTree = "<group>"; };
 		946C115D26A517240054FF4B /* 1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSum.swift; sourceTree = "<group>"; };
 		946C115F26A51C1A0054FF4B /* 3_ContainerMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ContainerMostWater.swift; sourceTree = "<group>"; };
 		946C116126A552430054FF4B /* 4_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_3Sum.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				94474A0426D63B1100A1A42B /* 9_letterCombinations.swift */,
 				94474A0626D64D7900A1A42B /* 10_ValidParentheses.swift */,
 				94474A0826D6505400A1A42B /* 11_GenerateParentheses.swift */,
+				94474A0A26DA292300A1A42B /* 12_ImplementStrStr.swift */,
 			);
 			path = 2.String;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				946C115E26A517240054FF4B /* 1_TwoSum.swift in Sources */,
 				946C116226A552430054FF4B /* 4_3Sum.swift in Sources */,
 				944749FF26D4A64800A1A42B /* 6_IntToRoom.swift in Sources */,
+				94474A0B26DA292300A1A42B /* 12_ImplementStrStr.swift in Sources */,
 				94474A0926D6505400A1A42B /* 11_GenerateParentheses.swift in Sources */,
 				94474A0526D63B1100A1A42B /* 9_letterCombinations.swift in Sources */,
 				946C116826A5896D0054FF4B /* 7_RemoveDuplicates.swift in Sources */,
@@ -297,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -367,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3XWZ5HCGK;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -378,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3XWZ5HCGK;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
