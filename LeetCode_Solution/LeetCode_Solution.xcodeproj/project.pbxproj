@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94211C672762F4FA00043BF0 /* 1_Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 94211C662762F4FA00043BF0 /* 1_Sqrt(x).swift */; };
 		944749CF26CB636B00A1A42B /* 3_ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */; };
 		944749D126CB967200A1A42B /* 4_StringToInteger(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */; };
 		944749D326CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		94211C662762F4FA00043BF0 /* 1_Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1_Sqrt(x).swift"; sourceTree = "<group>"; };
 		944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ZigZagConversion.swift; sourceTree = "<group>"; };
 		944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_StringToInteger(atoi).swift"; sourceTree = "<group>"; };
 		944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_RegularExpressionMatching.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94211C652762F47D00043BF0 /* 3.BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				94211C662762F4FA00043BF0 /* 1_Sqrt(x).swift */,
+			);
+			path = 3.BinarySearch;
+			sourceTree = "<group>";
+		};
 		949A83AA26A278EA00D8B35B = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		949A83B526A278EA00D8B35B /* LeetCode_Solution */ = {
 			isa = PBXGroup;
 			children = (
+				94211C652762F47D00043BF0 /* 3.BinarySearch */,
 				949A83B626A278EA00D8B35B /* main.swift */,
 				94ACC16326AE500E00E34E6B /* 2.String */,
 				949A83BF26A2791500D8B35B /* 1.Array */,
@@ -239,6 +250,7 @@
 				94474A0526D63B1100A1A42B /* 9_letterCombinations.swift in Sources */,
 				946C116826A5896D0054FF4B /* 7_RemoveDuplicates.swift in Sources */,
 				949A83BE26A2791000D8B35B /* 2_MedianOfSortedArray.swift in Sources */,
+				94211C672762F4FA00043BF0 /* 1_Sqrt(x).swift in Sources */,
 				94CF795526B7A698005AB768 /* 2_LongestPalindrome.swift in Sources */,
 				949A83B726A278EA00D8B35B /* main.swift in Sources */,
 				946C116A26A5C65F0054FF4B /* 8_RemoveElement.swift in Sources */,
