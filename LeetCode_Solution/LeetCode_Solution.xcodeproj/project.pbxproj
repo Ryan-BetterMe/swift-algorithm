@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94211C672762F4FA00043BF0 /* 1_Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 94211C662762F4FA00043BF0 /* 1_Sqrt(x).swift */; };
+		94211C692763013B00043BF0 /* 2_Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94211C682763013B00043BF0 /* 2_Search2DMatrix.swift */; };
 		944749CF26CB636B00A1A42B /* 3_ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */; };
 		944749D126CB967200A1A42B /* 4_StringToInteger(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */; };
 		944749D326CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		94211C662762F4FA00043BF0 /* 1_Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1_Sqrt(x).swift"; sourceTree = "<group>"; };
+		94211C682763013B00043BF0 /* 2_Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_Search2DMatrix.swift; sourceTree = "<group>"; };
 		944749CE26CB636B00A1A42B /* 3_ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_ZigZagConversion.swift; sourceTree = "<group>"; };
 		944749D026CB967200A1A42B /* 4_StringToInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_StringToInteger(atoi).swift"; sourceTree = "<group>"; };
 		944749D226CDFF9C00A1A42B /* 5_RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_RegularExpressionMatching.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				94211C662762F4FA00043BF0 /* 1_Sqrt(x).swift */,
+				94211C682763013B00043BF0 /* 2_Search2DMatrix.swift */,
 			);
 			path = 3.BinarySearch;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				946C116426A5664F0054FF4B /* 5_3SumClosest.swift in Sources */,
 				94ACC16526AE503000E34E6B /* 1_LongestSubstring.swift in Sources */,
 				94474A0726D64D7900A1A42B /* 10_ValidParentheses.swift in Sources */,
+				94211C692763013B00043BF0 /* 2_Search2DMatrix.swift in Sources */,
 				946C116626A574B00054FF4B /* 6_4Sum.swift in Sources */,
 				94E9C46426A90E5E004F9148 /* 14_SudokuSolver.swift in Sources */,
 				946C116E26A6B44A0054FF4B /* 10_SearchInRotatedSortedArray.swift in Sources */,
